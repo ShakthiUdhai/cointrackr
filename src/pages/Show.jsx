@@ -105,10 +105,7 @@ console.log(store.data)
         <h4>Market cap rank</h4>
         <span>{store.data.market_cap_rank}</span>
       </div>
-      <div className="show-details-row">
-        <h4>Current price</h4>
-        <span>{store.data.market_data.current_price.usd} USD</span>
-      </div>
+     
 
      
     </div>
